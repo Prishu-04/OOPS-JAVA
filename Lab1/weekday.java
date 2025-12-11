@@ -25,6 +25,10 @@ class weekday{
                 break;
             case 7:
                 System.out.println("Sunday\n Yehh Rest day");
+                break;
+            default:
+                System.out.println("Invalid day");
+                break;
         }
         sc.close();
     }
